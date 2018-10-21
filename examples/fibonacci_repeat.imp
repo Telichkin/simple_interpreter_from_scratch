@@ -1,0 +1,8 @@
+a := 0;
+b := 1;
+
+repeat 10 times
+    temp := a + b;
+    a := b;
+    b := temp
+end

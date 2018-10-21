@@ -1,0 +1,11 @@
+times_repeat := 10;
+
+a := 0;
+b := 1;
+
+while times_repeat > 0 do
+    temp := a + b;
+    a := b;
+    b := temp;
+    times_repeat := times_repeat - 1
+end
